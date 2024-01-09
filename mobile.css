@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar .container {
+    height: auto;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+  }
+  #about .container {
+    display: block;
+    gap: 20px;
+  }
+  #personal-info {
+    background-color: #f1f3f5;
+    padding-left: 0px;
+  }
+  #personal-info .mt-40 {
+    padding-left: 0;
+  }
+  #job-info .container {
+    display: flex;
+  }
+  .cer2 {
+    border-left: none;
+  }
+
+  /* Project Charter */
+  .h1 {
+    align-items: left !important;
+  }
+}
